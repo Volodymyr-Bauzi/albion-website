@@ -14,7 +14,7 @@ function App() {
 
         <Router>
           <Helmet>
-            <title>Miniapp Refergram Space</title>
+            <title>Great Albion Project</title>
           </Helmet>
           <Routes>
             <Route path="/" element={<Main />} />
