@@ -10,8 +10,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Great Albion Project</h1>
-
         <Router>
           <Helmet>
             <title>Great Albion Project</title>
