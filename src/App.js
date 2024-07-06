@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <Router>
           <Helmet>
-            <title>Great Albion Projec</title>
+            <title>Pogo</title>
           </Helmet>
           <Routes>
             <Route path="/" element={<Main />} />
