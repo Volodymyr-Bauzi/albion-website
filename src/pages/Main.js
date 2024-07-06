@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div>
       <Body>
-        <h1>Get trapped</h1>
+        <h1>Get Bamboozled</h1>
       </Body>
     </div>
   );
