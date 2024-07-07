@@ -4,7 +4,7 @@ import {Helmet} from 'react-helmet';
 import Main from './pages/Main';
 import ContactUs from './pages/ContactUs';
 
-import './App.css';
+import './base.scss';
 
 function App() {
   return (
