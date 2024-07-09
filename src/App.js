@@ -8,19 +8,15 @@ import './base.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Router>
-          <Helmet>
-            <title>Pogo</title>
-          </Helmet>
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/contact-us" element={<ContactUs />} />
-          </Routes>
-        </Router>
-      </header>
-    </div>
+    <Router>
+      <Helmet>
+        <title>Pogo</title>
+      </Helmet>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+      </Routes>
+    </Router>
   );
 }
 

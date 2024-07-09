@@ -3,24 +3,16 @@
 
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 
   .bodyNav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
+    flex: 1 0 10%;
   }
 
   .bodyMain {
-    margin-left: 80px;
-    padding: 20px;
-    box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
   }
 }
